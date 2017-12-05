@@ -13,7 +13,7 @@ import java.util.List;
 public class ZookeeperLock {
 
 	private static String ROOT_LOCK_PATH = "/Locks";
-	private String PRE_LOCK_NAME = "mylock_";
+	private String PRE_LOCK_NAME = "synchornLock_";
 	private static String zookeeperIp = "192.168.0.33:2181";
 	private static ZooKeeper zkClient  = null;
 
